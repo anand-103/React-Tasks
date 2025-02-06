@@ -1,8 +1,9 @@
 import React from 'react'
-import Quiz from './Components/Quiz'
+// import Quiz from './Components/Quiz'
 // import BMI from './Components/BMI'
 // import FAQ from './Components/FAQ'
 // import PasswordGen from './Components/PasswordGen'
+import Qrcoder from './Components/Qrcoder'
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
     {/* <BMI /> */}
     {/* <FAQ /> */}
     {/* <PasswordGen /> */}
-    <Quiz />
+    {/* <Quiz /> */}
+    <Qrcoder />
     </>
   )
 }
