@@ -12,6 +12,7 @@ const Advice = () => {
         setCount((c)=>c+1);
     }
   return (
+    <>
     <div style={{backgroundColor:"#fc427b", height:"97vh",display:"flex", justifyContent:"center", alignItems:"center"}}>
         <div style={{textAlign:"center"}}>
         <h1 style={{color:"white"}}>{advice}</h1>
@@ -19,6 +20,7 @@ const Advice = () => {
         <p style={{color:"white", fontSize:"1.5rem"}}>You have read <b style={{color:"#2c3a47"}}>{count}</b> pieces of advice</p>
         </div>
     </div>
+    </>
   )
 }
 
