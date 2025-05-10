@@ -1,6 +1,7 @@
 import React from 'react'
-import Todos from './Components/Todos'
+// import Todos from './Components/Todos'
 // import Advice from './Components/Advice'
+import Toast from './Components/Toast'
 // import Quiz from './Components/Quiz'
 // import BMI from './Components/BMI'
 // import FAQ from './Components/FAQ'
@@ -11,7 +12,7 @@ import Todos from './Components/Todos'
 const App = () => {
   return (
     <>
-    <Todos />
+    {/* <Todos /> */}
     {/* <BMI /> */}
     {/* <FAQ /> */}
     {/* <PasswordGen /> */}
@@ -19,6 +20,7 @@ const App = () => {
     {/* <Qrcoder /> */}
     {/* <Advice /> */}
     {/* <Weather /> */}
+    < Toast />
     </>
   )
 }
