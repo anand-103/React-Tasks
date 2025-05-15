@@ -1,7 +1,8 @@
 import React from 'react'
 // import Todos from './Components/Todos'
 // import Advice from './Components/Advice'
-import Toast from './Components/Toast'
+// import Toast from './Components/Toast'
+import Currency from './Components/Currency'
 // import Quiz from './Components/Quiz'
 // import BMI from './Components/BMI'
 // import FAQ from './Components/FAQ'
@@ -20,7 +21,8 @@ const App = () => {
     {/* <Qrcoder /> */}
     {/* <Advice /> */}
     {/* <Weather /> */}
-    < Toast />
+    {/* < Toast /> */}
+    <Currency />
     </>
   )
 }
